@@ -1,0 +1,29 @@
+﻿<div class="row" id="flightCardRow">
+    <div class="col-xl-12 mb-2 mt-4">
+        <div class="card">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-flex align-items-center">
+                        <div class="ms-3">
+                            <h5 class="fw-bold mb-1">Uçuş Numarası : {{FlightNumber}}</h5>
+                        </div>
+                        <div class="ms-3">
+                            <h5 class="fw-bold mb-1">Kabin : {{Cabin}}</h5>
+                        </div>
+                        <div class="ms-3">
+                            <h5 class="fw-bold mb-1">Kalkış Saati : {{DepartureDate}}</h5>
+                        </div>
+                        <div class="ms-3">
+                            <h5 class="fw-bold mb-1">Varış Saati : {{ArrivelDate}}</h5>
+                        </div>
+                    </div>
+                    <h4 class="fw-bold mb-1">Fiyat :{{Price}}</h4>
+                    <div class="ms-3">
+                        <button class="btn btn-primary selectFlight" data-id="{{FlightNumber}}" type="submit" >Seç</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
